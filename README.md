@@ -1,0 +1,16 @@
+# Pipedrive Scripts
+
+A collection of small, reusable Python scripts for automating tasks with the Pipedrive API.
+
+This project is structured to be scalable, shareable, and easy to maintain.
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone this repository
+
+```bash
+git clone git@github.com:buildscalesell/pipedrive-scripts.git
+cd pipedrive-scripts
+
