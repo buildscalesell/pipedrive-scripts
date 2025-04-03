@@ -1,0 +1,21 @@
+# Pipedrive Cleanup Scripts
+
+Python-Skripte zur Bereinigung von Organisationen in Pipedrive.
+
+## 🧼 remove_neuer_deal.py
+
+Entfernt das Suffix "- Neuer Deal" aus Organisationsnamen in Pipedrive und speichert die Änderungen über die API.
+
+### Verwendung
+
+1. `pip install -r requirements.txt`
+2. API-Token in `.env` oder direkt im Skript einfügen
+3. `python remove_neuer_deal.py`
+
+### Ausgabe
+
+Erstellt eine Excel-Datei `orgname_cleanup_report.xlsx` mit allen Änderungen.
+
+### Sicherheit
+
+**API-Token niemals in das GitHub-Repository hochladen.**
